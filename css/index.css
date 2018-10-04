@@ -1,10 +1,14 @@
-img{
-    height: 20vh;
-}
-
 body{
     max-width: 960px;
     margin: auto;
+}
+
+.main-content img, .events img, .links img{
+    max-width: 30vh;
+}
+
+.main-img{
+    max-width: 120vh;
 }
 
 nav{
@@ -21,7 +25,7 @@ nav a {
 
 .nav-link{
     width: 25%;
-    border: 1px solid black;
+    border: 0.3vh solid black;
     text-align: center
 }
 
@@ -38,12 +42,13 @@ nav a {
     display: flex; 
     justify-content:space-between;
     align-items:center;
+    margin-top: 3vh;
     }
 
 .main-content p{
     font-family: sans-serif;
     font-size: 1rem;
-    padding-right: 50px;
+    padding-right: 8vh;
 }
 
 #events{
@@ -52,10 +57,18 @@ nav a {
     text-align: center;
 }
 
-.events-news p{
+.events1-news p, .events2-news p{
     font-family: sans-serif;
-    font-size: 1rem;
-    margin: auto
+    font-size: 0.8rem;
+    margin:0 5vh 5vh 0;
+}
+
+.events1-news{
+    margin: 0 3vh 0 0;
+}
+
+.events2-news{
+    margin: 0 0 0 3vh;
 }
 
 .events, .events-news1{
@@ -72,6 +85,7 @@ nav a {
     text-align: center;
     font-family: sans-serif;
     font-size: 2rem;
+    margin-bottom: 0
 }
 
 .links{
@@ -85,10 +99,12 @@ nav a {
     font-size: 1rem;
     text-decoration: none;
 }
+.link{
+    text-align: center
+}
 
 .form{
     text-align: center;
-    margin: auto
 }
 
 .label{
@@ -98,4 +114,9 @@ nav a {
 
 table{
     margin: auto
+}
+
+footer{
+    font-size: 1rem;
+    margin: 3vh 0 3vh 3vh;
 }
