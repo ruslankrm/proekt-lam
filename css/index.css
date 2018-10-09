@@ -11,6 +11,16 @@ img{
     width: 100%;
 }
 
+.pointer1, .pointer2{
+    width: 10%
+}
+
+.main-picture1{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
 .div-img{
     width: 80%;
     margin: auto;
@@ -55,7 +65,7 @@ nav a {
 
 .main-content p{
     font-family: sans-serif;
-    font-size: 1.8vh;
+    font-size: 2.5vh;
     padding-right: 8vh;
 }
 
@@ -67,7 +77,7 @@ nav a {
 
 .events1-news p, .events2-news p{
     font-family: sans-serif;
-    font-size: 1.5vw;
+    font-size: 2vh;
     margin:0 2vh 2vh 0;
 }
 
@@ -79,8 +89,15 @@ nav a {
     margin: 0 0 0 1vh;
 }
 
-.events, .events-news1{
+ .events-news1{
     display: flex;
+}
+
+@media (min-width:800px) {
+    .events {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 .links-info h2{
@@ -137,4 +154,8 @@ footer{
 #submit{
     text-align: center;
     margin-left:50%;
+    width: 10vh;
+    background: #91e4fb;
+    border:1px solid black;
 }
+
