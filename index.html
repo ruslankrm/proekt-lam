@@ -18,11 +18,15 @@
     </header>
     <main id="main">
         <div class="main-picture">
+           <div class="bg-color">
+               <button onclick="white()">background white</button>
+               <button onclick="black()">background black</button>
+           </div>
            <h1>Lamborghini Aventador LP700-4</h1>
            <div class="main-picture1">
-              <div class="pointer1"><img class="previous" src="img/pointer1.png"></div>
-              <div class="div-img"><img src="img/Lamborghini.jpg" alt="Lamborghini"></div>
-              <div class="pointer2"><img class="next" src="img/pointer2.png"></div>
+              <div class="pointer1"><img onclick="previous()" src="img/pointer1.png" alt="pointer"></div>
+              <div class="div-img"><img id="img-change" src="img/Lamborghini.jpg" alt="Lamborghini"></div>
+              <div class="pointer2"><img onclick="next()" src="img/pointer2.png" alt="pointer"></div>
            </div>
         </div>
         <div class="main-content">
@@ -159,7 +163,7 @@
                 <table>
                     <tr>
                         <td><label for="name">your name:</label></td>
-                        <td class="a1"><input id="name" type="text" name="name" placeholder="name"/></td>
+                        <td><input id="name" type="text" name="name" placeholder="name"/></td>
                     </tr>
                     <tr>
                         <td><label for="email">your email:</label></td>

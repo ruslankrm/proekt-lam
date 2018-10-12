@@ -44,6 +44,17 @@ nav a {
     font-family: sans-serif;
 }
 
+.bg-color{
+    display: flex;
+    justify-content:space-between;
+    text-align: center;
+    margin: 2vh 0;
+}
+
+button{
+    background: #91e4fb;
+}
+
 .nav-link{
     width: 25%;
     border: 0.3vh solid black;
