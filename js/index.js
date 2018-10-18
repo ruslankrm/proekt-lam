@@ -1,13 +1,11 @@
 function white(){
-   const text = document.querySelector('main');
    document.body.style.background = 'white';
-   text.style.color = 'black';
+   document.body.style.color = 'black';
 }
 
 function black(){
-   const text = document.querySelector('main');
    document.body.style.background = 'black';
-   text.style.color = 'white';
+   document.body.style.color = 'white';
 }
 
 function next(){

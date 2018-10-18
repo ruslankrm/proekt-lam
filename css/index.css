@@ -153,8 +153,13 @@ button{
     font-size: 1rem;
 }
 
-table{
-    margin: auto
+form{
+    text-align: center;
+}
+
+input, textarea{
+    width: 50%;
+    margin: 1vh;
 }
 
 footer{
