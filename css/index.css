@@ -130,7 +130,6 @@ button{
 }
 
 .link a{
-    color: black;
     font-family: sans-serif;
     font-size: 2vh;
 }
@@ -174,4 +173,3 @@ footer{
     background: #91e4fb;
     border:1px solid black;
 }
-

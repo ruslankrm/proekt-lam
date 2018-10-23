@@ -8,12 +8,17 @@ function black(){
    document.body.style.color = 'white';
 }
 
-function next(){
-   const change = document.getElementById('img-change');
-   change.src = 'img/Lamborghini1.jpg';
-}
 
-function previous(){
-   const change = document.getElementById('img-change');
-   change.src = 'img/Lamborghini2.jpg';
+const images = ['img/Lamborghini.jpg', 'img/Lamborghini1.jpg', 'img/Lamborghini2.jpg'];
+var i = 0;
+
+function slide(n){
+   if(n === 'next'){
+      i++;
+      if(i === images.length){i = images.length - 1};
+   }else{
+      i--;
+      if(i < 0) {i = 0};
+   }
+      document.getElementById('img-change').src = images[i];
 }
