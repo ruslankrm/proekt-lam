@@ -1,9 +1,9 @@
-function white(){
+white.onclick = function(){
    document.body.style.background = 'white';
    document.body.style.color = 'black';
 }
 
-function black(){
+black.onclick = function(){
    document.body.style.background = 'black';
    document.body.style.color = 'white';
 }
